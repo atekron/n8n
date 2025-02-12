@@ -220,6 +220,7 @@ watch(
 				:is-read-only="isReadOnly"
 				:show-options="displayOptions"
 				:show-expression-selector="showExpressionSelector"
+				:path="path"
 				@update:model-value="optionSelected"
 				@menu-expanded="onMenuExpanded"
 			/>
@@ -269,6 +270,7 @@ watch(
 				:is-read-only="isReadOnly"
 				:show-options="displayOptions"
 				:show-expression-selector="showExpressionSelector"
+				:path="path"
 				@update:model-value="optionSelected"
 				@menu-expanded="onMenuExpanded"
 			/>
