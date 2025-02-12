@@ -317,6 +317,7 @@ defineExpose({
 					:loading-message="fetchingFieldsLabel"
 					:is-read-only="isReadOnly"
 					:value="props.paramValue"
+					:path="path"
 					@update:model-value="onParameterActionSelected"
 				/>
 				<div v-if="props.isDataStale && !props.refreshInProgress" :class="$style.staleDataWarning">
